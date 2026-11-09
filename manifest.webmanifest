@@ -1,0 +1,36 @@
+{
+  "name": "吃了么 · 今天吃什么",
+  "short_name": "吃了么",
+  "description": "每天按口味和人数配好一桌菜，菜谱详细、支持搜索、完全离线可用。",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "id": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F5EFE4",
+  "theme_color": "#2E3D31",
+  "categories": ["food", "lifestyle", "utilities"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "今日推荐",
+      "short_name": "今日",
+      "description": "查看今天配好的一桌菜",
+      "url": "./#/home",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "菜谱库",
+      "short_name": "菜谱",
+      "description": "搜索全部菜谱",
+      "url": "./#/recipes",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
